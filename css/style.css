@@ -3,7 +3,7 @@ body {
 }
 
 /*container*/
-.container {
+main {
   margin: 0 40px;
 }
 
@@ -115,21 +115,35 @@ nav .form-search button:hover {
   background-color: #ffffff;
 }
 
-.banner > div {
+.banner > aside {
   background-color: #ffffff;
   color: black;
   width: 100px;
-  margin: 10px;
+  margin: 10px 0px 10px 10px;
   /*text-align: center; aliñacion de texto
   line-height: 75px;    altura de texto */
   font-size: 12px;
   border: 1px solid #ccc;
+  padding: 8px;
+  line-height: 1px;
 }
 
 .banner > img {
   width: 100px;
   height: 200px;
-  margin: 10px;
+  margin: 10px 0px;
+}
+
+/*container-info*/
+.container-info {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 15px;
+  padding: 35px 20px; 
+}
+
+table{
+  margin-left: auto;
 }
 
 /*container-courses*/
