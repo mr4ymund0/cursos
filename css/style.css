@@ -134,6 +134,7 @@ nav .form-search button:hover {
   margin: auto;
   text-align: center;
   font-family: arial;
+  line-height: 8px;
   height: 200px;
 }
 
@@ -154,7 +155,7 @@ nav .form-search button:hover {
   cursor: pointer;
   width: 100%;
   font-size: 13px;
-  margin: 38px 0;
+  margin: 16px 0;
 
 }
 
